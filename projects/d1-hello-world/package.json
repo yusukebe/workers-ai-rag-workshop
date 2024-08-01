@@ -1,0 +1,7 @@
+{
+  "name": "d1-hello-world",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

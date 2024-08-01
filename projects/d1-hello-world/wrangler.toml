@@ -1,0 +1,22 @@
+name = "d1-hello-world"
+compatibility_date = "2024-07-01"
+main = "src/index.ts"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+#[[kv_namespaces]]
+#binding = "MY_KV_NAMESPACE"
+#id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "database-d1-hello-world"
+database_id = "f0fa72b3-d316-4043-bf63-75220c6da8ed" # Replace it to your database id
+
+# [ai]
+# binding = "AI"
