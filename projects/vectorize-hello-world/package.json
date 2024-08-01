@@ -1,0 +1,7 @@
+{
+  "name": "vectorize-hello-world",
+  "scripts": {
+    "dev": "wrangler dev --remote",
+    "deploy": "wrangler deploy"
+  }
+}
