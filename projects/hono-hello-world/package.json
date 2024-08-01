@@ -1,0 +1,7 @@
+{
+  "name": "hono-hello-world",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
