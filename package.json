@@ -1,0 +1,12 @@
+{
+  "name": "workers-ai-rag-workshop",
+  "workspaces": [
+    "projects/*"
+  ],
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "@hono/eslint-config": "^0.0.6",
+    "eslint": "^9.8.0",
+    "typescript": "^5.5.4"
+  }
+}
