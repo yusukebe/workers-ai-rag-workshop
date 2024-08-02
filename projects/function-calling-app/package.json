@@ -1,0 +1,10 @@
+{
+  "name": "function-calling-app",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/ai-utils": "^1.0.1"
+  }
+}
