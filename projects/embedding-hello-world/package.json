@@ -1,0 +1,7 @@
+{
+  "name": "embedding-hello-world",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
