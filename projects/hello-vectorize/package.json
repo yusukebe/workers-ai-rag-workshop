@@ -1,5 +1,5 @@
 {
-  "name": "rag-app",
+  "name": "hello-vectorize",
   "scripts": {
     "dev": "wrangler dev --remote",
     "deploy": "wrangler deploy"

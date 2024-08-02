@@ -1,9 +1,12 @@
-name = "workers-hello-world"
+name = "app-function-calling"
 compatibility_date = "2024-07-01"
 main = "src/index.ts"
 
-[vars]
-MY_VAR = "my-variable"
+[ai]
+binding = "AI"
+
+# [vars]
+# MY_VAR = "my-variable"
 
 #[[kv_namespaces]]
 #binding = "MY_KV_NAMESPACE"
@@ -17,6 +20,3 @@ MY_VAR = "my-variable"
 #binding = "MY_DB"
 #database_name = "my-database"
 #database_id = ""
-
-# [ai]
-# binding = "AI"

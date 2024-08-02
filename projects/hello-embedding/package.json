@@ -1,5 +1,5 @@
 {
-  "name": "d1-hello-world",
+  "name": "hello-embedding",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

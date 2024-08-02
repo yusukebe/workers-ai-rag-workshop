@@ -1,5 +1,5 @@
 {
-  "name": "workers-hello-world",
+  "name": "hello-ai",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

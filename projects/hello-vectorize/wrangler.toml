@@ -1,9 +1,10 @@
-name = "function-calling-app"
+name = "hello-vectorize"
 compatibility_date = "2024-07-01"
 main = "src/index.ts"
 
-[ai]
-binding = "AI"
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "index-vectorize-hello-world"
 
 # [vars]
 # MY_VAR = "my-variable"
@@ -20,3 +21,6 @@ binding = "AI"
 #binding = "MY_DB"
 #database_name = "my-database"
 #database_id = ""
+
+# [ai]
+# binding = "AI"

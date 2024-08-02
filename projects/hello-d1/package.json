@@ -1,5 +1,5 @@
 {
-  "name": "hono-hello-world",
+  "name": "hello-d1",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

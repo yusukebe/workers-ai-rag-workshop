@@ -1,13 +1,9 @@
-name = "vectorize-hello-world"
+name = "hello-hono"
 compatibility_date = "2024-07-01"
 main = "src/index.ts"
 
-[[vectorize]]
-binding = "VECTORIZE"
-index_name = "index-vectorize-hello-world"
-
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+MY_VAR = "my-variable"
 
 #[[kv_namespaces]]
 #binding = "MY_KV_NAMESPACE"

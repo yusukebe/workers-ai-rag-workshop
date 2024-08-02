@@ -1,12 +1,9 @@
-name = "embedding-hello-world"
+name = "hello-workers"
 compatibility_date = "2024-07-01"
 main = "src/index.ts"
 
-[ai]
-binding = "AI"
-
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+MY_VAR = "my-variable"
 
 #[[kv_namespaces]]
 #binding = "MY_KV_NAMESPACE"
@@ -21,3 +18,5 @@ binding = "AI"
 #database_name = "my-database"
 #database_id = ""
 
+# [ai]
+# binding = "AI"
