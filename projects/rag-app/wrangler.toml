@@ -1,0 +1,26 @@
+name = "rag-app"
+compatibility_date = "2024-07-01"
+main = "src/index.ts"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "database-rag-app"
+database_id = "e9483c99-c133-4c2d-8997-e8551f7a5b7d"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "index-vectorize-rag-app"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+#[[kv_namespaces]]
+#binding = "MY_KV_NAMESPACE"
+#id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
