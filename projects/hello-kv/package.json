@@ -1,0 +1,7 @@
+{
+  "name": "hello-kv",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

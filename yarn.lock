@@ -2073,6 +2073,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"hello-kv@workspace:projects/hello-kv":
+  version: 0.0.0-use.local
+  resolution: "hello-kv@workspace:projects/hello-kv"
+  languageName: unknown
+  linkType: soft
+
 "hello-r2@workspace:projects/hello-r2":
   version: 0.0.0-use.local
   resolution: "hello-r2@workspace:projects/hello-r2"
