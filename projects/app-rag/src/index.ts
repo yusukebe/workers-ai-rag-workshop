@@ -37,7 +37,7 @@ app.get('/', async (c) => {
   }
 
   const contextMessage = notes.length ? `Context: \n${notes.map((note) => `- ${note}`).join('\n')}` : ''
-  const systemPrompt = `Answer the given question based on the context.`
+  const systemPrompt = 'Answer the given question based on the context.'
   const messages: RoleScopedChatInput[] = [
     { role: 'system', content: systemPrompt },
     { role: 'user', content: text }
