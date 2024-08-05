@@ -5,6 +5,7 @@
     "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "@cloudflare/ai-utils": "^1.0.1"
+    "@cloudflare/ai-utils": "^1.0.1",
+    "hono": "^4.5.3"
   }
 }

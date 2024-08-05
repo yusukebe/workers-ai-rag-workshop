@@ -715,12 +715,15 @@ __metadata:
   resolution: "app-function-calling@workspace:projects/app-function-calling"
   dependencies:
     "@cloudflare/ai-utils": "npm:^1.0.1"
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "app-rag@workspace:projects/app-rag":
   version: 0.0.0-use.local
   resolution: "app-rag@workspace:projects/app-rag"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
@@ -2052,48 +2055,64 @@ __metadata:
 "hello-ai@workspace:projects/hello-ai":
   version: 0.0.0-use.local
   resolution: "hello-ai@workspace:projects/hello-ai"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-d1@workspace:projects/hello-d1":
   version: 0.0.0-use.local
   resolution: "hello-d1@workspace:projects/hello-d1"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-embedding@workspace:projects/hello-embedding":
   version: 0.0.0-use.local
   resolution: "hello-embedding@workspace:projects/hello-embedding"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-hono@workspace:projects/hello-hono":
   version: 0.0.0-use.local
   resolution: "hello-hono@workspace:projects/hello-hono"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-kv@workspace:projects/hello-kv":
   version: 0.0.0-use.local
   resolution: "hello-kv@workspace:projects/hello-kv"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-r2@workspace:projects/hello-r2":
   version: 0.0.0-use.local
   resolution: "hello-r2@workspace:projects/hello-r2"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-vectorize@workspace:projects/hello-vectorize":
   version: 0.0.0-use.local
   resolution: "hello-vectorize@workspace:projects/hello-vectorize"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
 "hello-workers@workspace:projects/hello-workers":
   version: 0.0.0-use.local
   resolution: "hello-workers@workspace:projects/hello-workers"
+  dependencies:
+    hono: "npm:^4.5.3"
   languageName: unknown
   linkType: soft
 
